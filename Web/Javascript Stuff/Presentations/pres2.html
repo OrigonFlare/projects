@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nuhuh</title>
+
+    <script>
+        var talArray = [];
+
+        function tillArray() {
+            talArray.push(parseInt(document.getElementById("tal").value));
+            document.getElementById("label1").innerHTML = talArray.sort(function(a, b){return a - b});
+            document.getElementById("tal").value = "";
+            
+        }
+    </script>
+
+</head>
+<body>
+    <input type="number" id="tal">
+    <input type="button" value="Array" id="">
+    <label id="label1"></label>
+</body>
+</html>

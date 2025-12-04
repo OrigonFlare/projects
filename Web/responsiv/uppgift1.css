@@ -1,0 +1,27 @@
+body{
+    background-color: aqua;
+}
+
+.grid-container {
+    display: grid;
+    display: inline-grid;
+    background-color: rgb(223, 31, 31);
+}
+
+.item1 {
+    font-weight: bold;
+    font-family: Arial;
+    font-size: large;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+    background-color: rgb(88, 88, 88);
+    border: 1px solid black;
+
+    grid-column-start: 1;
+    /*grid-column-end: 20;*/
+
+    grid-row-start: 1;
+    /*grid-row-end: 5;*/
+}

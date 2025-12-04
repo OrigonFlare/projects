@@ -1,0 +1,37 @@
+#flex1 {
+    display: flex;
+    background-color: aquamarine;
+    height: 300px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#flex2 {
+    display: flex;
+    height: 300px;
+    background-color: coral;
+
+    justify-content: space-around;
+    align-items: center;
+    align-items: flex-start;
+    .apa{
+        align-self: flex-end;
+    }
+}
+
+#flex3 {
+    display: flex;
+    height: 400px;
+    background-color: lightskyblue;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .myItem{
+        border: 1px solid;
+        padding: 0px 60px;
+        background-color: blue;
+    }
+}
+

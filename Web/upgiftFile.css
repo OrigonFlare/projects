@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(211, 224, 18);
+  }
+  
+  p{
+    background-color: rgb(45, 169, 200);
+    font-family: Verdana;
+  }
+  
+  mark.green {
+    color: rgb(29, 151, 59);
+    background: none;
+  }
+
+  mark.red {
+    color: red;
+    background: none;
+  }

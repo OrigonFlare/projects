@@ -1,0 +1,25 @@
+#flex1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+
+    .kaning{
+        width: 90px;
+        height: 90px;
+        border: 1px solid;
+        background-color: red;;
+    }
+    .apa{
+        border: 1px solid;
+        width: 90px;
+        height: 70px;
+        padding: 10px 91.5px;
+        background-color: blue;;
+    }
+    #middle{
+        margin-left: 229px;
+    }
+    #end{
+        margin-left: 229px;
+    }
+}

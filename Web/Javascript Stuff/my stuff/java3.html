@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WOW</title>
+    <link rel="stylesheet" href="forjava3.css">
+
+</head>
+<body>
+    <div class="slideshow-container">
+
+        <div class="mySlides">
+
+          <img src="QnCXntz.png" style="width:50%">
+
+        </div>
+
+        <div class="mySlides">
+ 
+          <img src="cute.gif" style="width:50%">
+
+        </div>
+
+        <div class="mySlides">
+
+          <img src="aa.png" style="width:50%">
+
+        </div>
+
+        <button onclick="startSlides()">START</button>
+        <button onclick="stopSlides()">STOPP</button>
+
+      </div>
+
+      <script>
+
+        var slideIndex = 0;
+        var slides = document.getElementsByClassName("mySlides");
+        var slideInterval;
+
+        function showSlides() {
+            for (var i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1;
+            }
+            slides[slideIndex-1].style.display = "block";
+        }
+
+        function startSlides() {
+            slideInterval = setInterval(showSlides, 1000);
+        }
+
+        function stopSlides() {
+            clearInterval(slideInterval);
+        }
+
+        </script>
+</body>
+</html>

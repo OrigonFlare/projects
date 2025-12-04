@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main2.css">
+
+    <script type="text/javascript">
+        function getsum(){
+            var myArray = []
+            myArray.push(parseInt(document.getElementById("one").value));
+            myArray.push(parseInt(document.getElementById("two").value));
+            myArray.push(parseInt(document.getElementById("three").value));
+            myArray.push(parseInt(document.getElementById("four").value));
+            myArray.push(parseInt(document.getElementById("five").value));
+
+            document.getElementById("label").innerHTML = myArray.reduce((a, b) => a + b, 0);
+            document.getElementById("sorted").innerHTML = "sorterad: " + myArray.sort(function(a, b){return a - b});
+        }
+
+        function cosmo(){
+            var namn = document.getElementById("namein").value;
+            var data = "";
+
+            data += "antal characters in name: " + namn.length + "\n";
+            data += "Första bokstaven i ordet är: " + namn.charAt(0) + "\n";
+            data += "ordet i stora bokstäver: " + namn.toUpperCase() + "\n";
+
+            document.getElementById("namnLabel").innerHTML = data
+        }
+
+    </script>
+</head>
+
+<body>
+    <input type="number" id="one"><br>
+    <input type="number" id="two"><br>
+    <input type="number" id="three"><br>
+    <input type="number" id="four"><br>
+    <input type="number" id="five"><br>
+
+    <button onclick="getsum()">Summa</button>
+    <p id="label"></p>
+    <p id="sorted"></p>
+
+
+    <div id="myDiv">
+        <input type="text" id="namein" value="namn"><br>
+        <button onclick="cosmo()">Få värdet</button> <br>
+        <label id="namnLabel">test</label>
+    </div>
+</body>
+</html>

@@ -1,0 +1,275 @@
+body{
+    background-color: aquamarine;
+}
+
+#bigMainBackroundBox {
+    width: 560px;
+    height: 480px;
+    padding: 10px;
+    background-color: rgb(203, 247, 245);
+    border: 2px rgb(125, 197, 195) solid;
+    /*float: left;*/
+    position: absolute;
+    left: 520px;
+    top: 10px;
+    z-index: -1;
+}
+
+#inputBox1 {
+    background-color: rgb(227, 244, 245);
+    border: 2px rgb(125, 197, 195) solid;
+
+    position: absolute;
+    left: 680px;
+    top: 30px;
+    z-index: 1;
+    resize: none;
+}
+
+#inputBox2 {
+    background-color: rgb(227, 244, 245);
+    border: 2px rgb(125, 197, 195) solid;
+
+    width: 220px;
+    height: 18px;
+
+    position: absolute;
+    left: 680px;
+    top: 74px;
+    z-index: 1;
+    resize: none;
+}
+
+#inputBox3 {
+    background-color: rgb(227, 244, 245);
+    border: 2px rgb(125, 197, 195) solid;
+
+    width: 220px;
+    height: 18px;
+
+    position: absolute;
+    left: 680px;
+    top: 118px;
+    z-index: 1;
+    resize: none;
+}
+
+#inputBox4 {
+    background-color: rgb(227, 244, 245);
+    border: 2px rgb(125, 197, 195) solid;
+
+    position: absolute;
+    left: 680px;
+    top: 162px;
+    z-index: 1;
+    resize: none;
+}
+
+.nameClass {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 90%;
+}
+
+.descClass {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(167, 167, 167);
+    font-size: 80%;
+}
+
+#inputBox1NAME {
+    position: absolute;
+    left: 632px;
+    top: 12px;
+    z-index: 1;
+}
+
+#inputBox1DESC {
+    position: absolute;
+    left: 585px;
+    top: 27px;
+    z-index: 1;
+}
+
+#inputBox1EMAIL {
+    position: absolute;
+    left: 632px;
+    top: 57px;
+    z-index: 1;
+}
+
+#inputBox1EMAILDESC {
+    position: absolute;
+    left: 565px;
+    top: 72px;
+    z-index: 1;
+}
+
+#inputBox1PHONE {
+    position: absolute;
+    left: 632px;
+    top: 100px;
+    z-index: 1;
+}
+
+#inputBox1PHONEDESC {
+    position: absolute;
+    left: 555px;
+    top: 115px;
+    z-index: 1;
+}
+
+#inputBox1WEB {
+    position: absolute;
+    left: 620px;
+    top: 146px;
+    z-index: 1;
+}
+
+#inputBox1WEBDESC {
+    position: absolute;
+    left: 603px;
+    top: 161px;
+    z-index: 1;
+}
+
+#priorityList {
+    border: none;
+    border-radius: 4px;
+
+    position: absolute;
+    left: 680px;
+    top: 200px;
+    z-index: 1;
+}
+
+#priorityNAME {
+    position: absolute;
+    left: 620px;
+    top: 180px;
+    z-index: 1;
+}
+
+#priorityDESC {
+    position: absolute;
+    left: 603px;
+    top: 195px;
+    z-index: 1;
+}
+
+#typeList {
+    border: none;
+    border-radius: 4px;
+
+    position: absolute;
+    left: 680px;
+    top: 250px;
+    z-index: 1;
+}
+
+#typeNAME {
+    position: absolute;
+    left: 640px;
+    top: 227px;
+    z-index: 1;
+}
+
+#typeDESC {
+    position: absolute;
+    left: 590px;
+    top: 245px;
+    z-index: 1;
+}
+
+#bigBoxInput {
+    background-color: rgb(227, 244, 245);
+    border: 2px rgb(125, 197, 195) solid;
+
+    position: absolute;
+    left: 680px;
+    top: 300px;
+    z-index: 1;
+}
+
+#bigBoxInputNAME {
+    position: absolute;
+    left: 615px;
+    top: 285px;
+    z-index: 1;
+}
+
+#bigBoxInputDESC {
+    position: absolute;
+    left: 564px;
+    top: 303px;
+    z-index: 1;
+}
+
+#submitButton {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 90%;
+    color: white;
+
+    width: 160px;
+    height: 38px;
+    padding: 2px;
+    background-color: rgb(62, 62, 62);
+    border: none;
+    
+
+    position: absolute;
+    left: 710px;
+    top: 450px;
+    z-index: 1;
+}
+
+.place1 {
+    position: absolute;
+    left: 920px;
+    top: 200px;
+}
+.place2 {
+    position: absolute;
+    left: 920px;
+    top: 220px;
+}
+.place3 {
+    position: absolute;
+    left: 920px;
+    top: 240px;
+}
+.p1 {
+    position: absolute;
+    left: 943px;
+    top: 200px;
+}
+.p2 {
+    position: absolute;
+    left: 943px;
+    top: 220px;
+}
+.p3 {
+    position: absolute;
+    left: 943px;
+    top: 240px;
+}
+
+.place4 {
+    position: absolute;
+    left: 920px;
+    top: 260px;
+}
+
+.p4 {
+    position: absolute;
+    left: 943px;
+    top: 260px;
+}
+
+#no {
+    position: absolute;
+    left: 920px;
+    top: 163px;
+}
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+
+    <script>
+
+        function gaylord(){
+            document.body.style.backgroundColor = "red";
+        }
+        function notgay(){
+            document.body.style.backgroundColor = "green";
+        }
+        function lesbian(){
+            var color = document.body.style.backgroundColor;
+            if (color != "yellow") {
+                document.body.style.backgroundColor = "yellow";
+            } else {
+                document.body.style.backgroundColor = "white";
+            }
+        }
+
+        function roolDeic(counter=0){
+            for (var i = 0; i <20; i++) {
+                const hashtag_gyat = ["pink", "orange", "crimson", "lime", "brown", "fuchsia", "olive", "tomate", "black", "white"];
+                const nuhUH = Math.floor(Math.random() * hashtag_gyat.length);
+                document.body.style.backgroundColor = hashtag_gyat[nuhUH];
+                
+                counter++;
+                if (counter < 20) {
+                    setTimeout(roolDeic, 100, counter);
+                }
+            }
+        }
+
+    </script>
+
+</head>
+<body>
+    <button id="gayButton" onmouseover="gaylord()" onmouseout="notgay()">
+        gay
+    </button>
+    <button id="lesbutt" onclick="lesbian()">
+        Lesbian
+    </button>
+
+    <button id="gamblerALERT" onclick="roolDeic()">
+        LETS GAMBLE
+    </button>
+
+</body>
+</html>

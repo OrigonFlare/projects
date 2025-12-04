@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulär</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="mainBox"></div>
+    <p id="rubrik">Skicka läxa</p>
+
+    <textarea name="writetext" id="typebox" cols="30" rows="1"></textarea>
+    <p id="amne">Ämne</p>
+    <div id="typeboxbox"></div>
+
+    <p id="viktigt">Viktighetsgrad</p>
+    <div id="secondboxbox"></div>
+
+    <input type="radio" class="place1" name="nr" value="ett">
+    <label class="p1" class="style" for="one">Superviktigt</label><br>
+    <input type="radio" class="place2" name="nr" value="två">
+    <label class="p2" class="style" for="two">Viktigt</label><br>
+    <input type="radio" class="place3" name="nr" value="tre">
+    <label class="p3" id="akut" for="three">AKUT</label><br>
+
+    <p id="laxa">Läxa</p>
+    <div id="secondsecondboxbox"></div>
+    <textarea name="writetext" id="typebox2" cols="30" rows="8"></textarea>
+
+    <form id="sckika" action="SidaSomInfoSkickasTill.php" method="post">
+        <input type="submit" value="Sänd svar">
+    </form>
+    
+</body>
+</html>

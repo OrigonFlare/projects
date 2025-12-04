@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script type="text/javascript"> 
+        function kvadrera()
+        {
+            var text = document.getElementById("textfield1").value.trim();
+            var tal = parseInt(text);
+            var kvadrat = tal * tal;
+            document.getElementById("label1").innerHTML = kvadrat.toString();
+        }
+    </script>
+
+</head>
+<body>
+
+    <input type="number" id="textfield1">
+    <input type="button" id="button1" value="gay" onclick="kvadrera()">
+
+    <p><label id="label1">hej</label></p>
+
+</body>
+</html>

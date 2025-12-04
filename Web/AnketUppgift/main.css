@@ -1,0 +1,157 @@
+body{
+    background-color: gray;
+}
+
+#mainBox {
+    width: 300px;
+    height: 480px;
+    padding: 10px;
+    border: 2px rgb(79, 78, 78) solid;
+    background-color: rgb(255, 255, 255);
+    /*float: left;*/
+    position: absolute;
+    left: 520px;
+    top: 10px;
+    z-index: -1;
+}
+
+#rubrik {
+    position: absolute;
+    left: 590px;
+    top: 10px;
+    z-index: -1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#typebox{
+    position: absolute;
+    left: 565px;
+    top: 115px;
+    z-index: 1;
+    resize: none;
+}
+
+#typeboxbox{
+    border: 2px rgb(67, 66, 66) solid;
+    position: absolute;
+    left: 554px;
+    top: 100px;
+    z-index: 0;
+    resize: none;
+    width: 260px;
+    height: 50px;
+}
+
+#amne{
+    position: absolute;
+    left: 565px;
+    top: 75px;
+    z-index: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: white;
+    padding: 2px;
+}
+
+#secondboxbox{
+    border: 2px rgb(67, 66, 66) solid;
+    position: absolute;
+    left: 554px;
+    top: 170px;
+    z-index: 0;
+    resize: none;
+    width: 260px;
+    height: 90px;
+}
+
+#viktigt{
+    position: absolute;
+    left: 565px;
+    top: 145px;
+    z-index: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: white;
+    padding: 2px;
+}
+
+.place1 {
+    position: absolute;
+    left: 560px;
+    top: 190px;
+}
+.place2 {
+    position: absolute;
+    left: 560px;
+    top: 210px;
+}
+.place3 {
+    position: absolute;
+    left: 560px;
+    top: 230px;
+}
+
+.p1 {
+    position: absolute;
+    left: 583px;
+    top: 190px;
+}
+.p2 {
+    position: absolute;
+    left: 583px;
+    top: 210px;
+}
+.p3 {
+    position: absolute;
+    left: 583px;
+    top: 230px;
+}
+
+.style {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}
+
+#akut {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(194, 3, 3);
+}
+
+#secondsecondboxbox{
+    border: 2px rgb(67, 66, 66) solid;
+    position: absolute;
+    left: 554px;
+    top: 280px;
+    z-index: 0;
+    resize: none;
+    width: 260px;
+    height: 160px;
+}
+
+#laxa{
+    position: absolute;
+    left: 565px;
+    top: 255px;
+    z-index: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: white;
+    padding: 2px;
+}
+
+#typebox2{
+    position: absolute;
+    left: 565px;
+    top: 300px;
+    z-index: 1;
+}
+
+#sckika {
+    position: absolute;
+    left: 635px;
+    top: 465px;
+    z-index: 1;
+}

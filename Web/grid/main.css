@@ -1,0 +1,79 @@
+.grid-container {
+    display: grid;
+    display: inline-grid;
+    gap: 10px 10px;
+    padding: 10px;
+    border: 1px solid;
+}
+.item1 {
+    font-weight: bold;
+    font-family: Arial;
+    background-color: red;
+
+    grid-column-start: 1;
+    grid-column-end: 40;
+
+    grid-row-start: 1;
+    grid-row-end: 10;
+}
+
+.item2 {
+    font-weight: bold;
+    font-family: Arial;
+    background-color: rgb(130, 217, 109);
+
+    grid-column-start: 1;
+    grid-column-end: 20;
+
+    grid-row-start: 10;
+    grid-row-end: 20;
+}
+
+.item3 {
+    font-weight: bold;
+    font-family: Arial;
+    background-color: lightskyblue;
+
+    grid-column-start: 20;
+    grid-column-end: 40;
+
+    grid-row-start: 10;
+    grid-row-end: 20;
+}
+
+
+.item4 {
+    font-weight: bold;
+    font-family: Arial;
+    background-color: yellow;
+
+    grid-column-start: 1;
+    grid-column-end: 10;
+
+    grid-row-start: 20;
+    grid-row-end: 30;
+}
+
+.item5 {
+    font-weight: bold;
+    font-family: Arial;
+    background-color: yellow;
+
+    grid-column-start: 10;
+    grid-column-end: 20;
+
+    grid-row-start: 20;
+    grid-row-end: 30;
+}
+
+.item6 {
+    font-weight: bold;
+    font-family: Arial;
+    background-color: lightskyblue;
+
+    grid-column-start: 20;
+    grid-column-end: 40;
+
+    grid-row-start: 20;
+    grid-row-end: 30;
+}

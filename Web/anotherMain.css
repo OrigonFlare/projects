@@ -1,0 +1,34 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h2 {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  p {
+    font-family: Comic Sans MS;
+    font-size: 20px;
+  }
+
+  table {
+    color: rgb(220, 194, 22);
+    font-family: 'Times New Roman';
+  }
+
+  ol {
+    color: rgb(255, 8, 255);
+    font-family: inherit;
+  }
+
+  a {
+    color: rgb(25, 186, 57);
+    font-family: monospace;
+  }
+  #box {
+    width: 250px;
+    padding: 25px;
+    border: 25px solid;
+  }

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulär</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <form action="http://localhost/phpfiles/anket2php.php" method="post">
+    <div id="bigMainBackroundBox"></div>
+    <textarea name="fornamn" id="inputBox1" cols="28" rows="1"></textarea>
+    <p id="inputBox1NAME" class="nameClass">Name</p>
+    <p id="inputBox1DESC" class="descClass">Add your name</p>
+    <p><label for="email"> </label><input type="email" namn="email" id="inputBox2" value=""></p>
+    <p id="inputBox1EMAIL" class="nameClass">Email</p>
+    <p id="inputBox1EMAILDESC" class="descClass">Enter a Valid Email</p>
+    
+    <p><label for="phone"> </label><input type="number" namn="phone" id="inputBox3" value=""></p>
+    <p id="inputBox1PHONE" class="nameClass">Phone</p>
+    <p id="inputBox1PHONEDESC" class="descClass">Add a Phone Number</p>
+    <textarea name="website" id="inputBox4" cols="28" rows="1"></textarea>
+    <p id="inputBox1WEB" class="nameClass">Website</p>
+    <p id="inputBox1WEBDESC" class="descClass">Your Website</p>
+
+    <select name="priority" id="priorityList">
+        <option value="Low">Low</option>
+        <option value="Medium">Medium</option>
+        <option value="High">High</option>
+      </select>
+
+    <p id="priorityNAME" class="nameClass">Priority</p>
+    <p id="priorityDESC" class="descClass">Priority Level</p>
+
+    <select name="type" id="typeList">
+        <option value="1">Website Uptade</option>
+        <option value="2">I don't know</option>
+        <option value="3">I don't know 2</option>
+      </select>
+
+    <p id="typeNAME" class="nameClass">Type</p>
+    <p id="typeDESC" class="descClass">Type of Contact</p>
+
+    <textarea name="writetext" id="bigBoxInput" cols="28" rows="8"></textarea>
+    <p id="bigBoxInputNAME" class="nameClass">Message</p>
+    <p id="bigBoxInputDESC" class="descClass">Type Your Message</p>
+
+    <p id="no"> Programming Languages:</p>
+    <label class="p1" for="nr1">C</label><br>
+    <input type="checkbox" class="place1" name="nr1" value="ett">
+    <label class="p2" for="nr2">Java</label><br>
+    <input type="checkbox" class="place2" name="nr2" value="två">
+    <label class="p3" for="nr3">Python</label><br>
+    <input type="checkbox" class="place3" name="nr3" value="tre">
+    <label class="p4" for="nr4">PHP</label><br>
+    <input type="checkbox" class="place4" name="nr4" value="fyra">
+
+    <input type="submit" id="submitButton" value="Skicka Info">
+  </form>
+</body>
+</html>
